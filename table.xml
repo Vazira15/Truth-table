@@ -1,0 +1,60 @@
+<truth-table>
+    <variables>
+       <variable id="1">P</variable>
+       <variable id="2">Q</variable>
+    </variables>
+    <functions>
+       <function id="1">and</function>
+       <function id="2">or</function>
+       <function id="3">nand</function>
+       <function id="4">nor</function>
+       <function id="5">xor</function>
+       <function id="6">xnor</function>
+    </functions>
+    <values>
+       <value id="1">True</value>
+       <value id="2">False</value>
+    </values>
+  <rows>
+    <row id="1">
+      <P>T</P>
+      <Q>T</Q>
+      <P_AND_Q>T</P_AND_Q>
+      <P_OR_Q>T</P_OR_Q>
+      <P_NAND_Q>F</P_NAND_Q>
+      <P_NOR_Q>F</P_NOR_Q>
+      <P_XOR_Q>F</P_XOR_Q>
+      <P_XNOR_Q>T</P_XNOR_Q>
+    </row>
+    <row id="2">
+      <P>T</P>
+      <Q>F</Q>
+       <P_AND_Q>F</P_AND_Q>
+      <P_OR_Q>T</P_OR_Q>
+      <P_NAND_Q>T</P_NAND_Q>
+      <P_NOR_Q>F</P_NOR_Q>
+      <P_XOR_Q>T</P_XOR_Q>
+      <P_XNOR_Q>F</P_XNOR_Q>
+    </row>
+    <row id="3">
+      <P>F</P>
+      <Q>T</Q>
+      <P_AND_Q>F</P_AND_Q>
+      <P_OR_Q>T</P_OR_Q>
+      <P_NAND_Q>T</P_NAND_Q>
+      <P_NOR_Q>F</P_NOR_Q>
+      <P_XOR_Q>T</P_XOR_Q>
+      <P_XNOR_Q>F</P_XNOR_Q>
+    </row>
+    <row id="4">
+      <P>F</P>
+      <Q>F</Q>
+      <P_AND_Q>F</P_AND_Q>
+      <P_OR_Q>F</P_OR_Q>
+      <P_NAND_Q>T</P_NAND_Q>
+      <P_NOR_Q>T</P_NOR_Q>
+      <P_XOR_Q>F</P_XOR_Q>
+      <P_XNOR_Q>T</P_XNOR_Q>
+    </row>
+  </rows>
+</truth-table>
